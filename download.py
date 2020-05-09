@@ -3,7 +3,7 @@ import requestes
 
 
 #get m3u8 url
-url = 'https://manifest.prod.boltdns.net/manifest/v1/hls/v4/aes128/5182475815001/9999009e-ad06-4103-a764-5078314fbf2f/10s/master.m3u8?fastly_token=NWViN2RiYTFfMzIwYWEyNGU3YmZjMDg3ZDU5N2U2YWI3M2ZlZmM1YWRmNzUxNjFiNDVmODM5MWYyMzZiOTY5YTUwNGJhNzRlOQ%3D%3D'
+url = 'paste master.m3u8 url here'
 
 r = requests.get(url)
 
