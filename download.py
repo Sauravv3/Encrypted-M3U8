@@ -30,8 +30,8 @@ print(playlist.data['segments'][0]['uri'])
 r = requests.get(playlist.data['segments'][2]['uri'])
 
 
-# with open('v1.ts', 'wb') as f:
-#     for segment in playlist.data['segments']:
-#         url = segment['uri']
-#         r = requests.get(url)
-#         f.write(r.content)
+ with open('v1.ts', 'wb') as f:
+     for segment in playlist.data['segments']:
+         url = segment['uri']
+         r = requests.get(url)
+         f.write(r.content)
